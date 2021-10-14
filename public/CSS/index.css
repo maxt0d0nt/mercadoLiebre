@@ -1,0 +1,148 @@
+p {font-family: 'Roboto', sans-serif;}
+
+header {background-color : #EAC926;
+            }
+
+h2 {font-size: 24px;}
+
+p {font-size: 12px; }
+
+.precio { font-size: 18px ;
+margin-left: 20px;}
+
+.des { font-size: 16px;
+        color: green;
+        font-weight: bolder;
+    }
+
+body { background-color: #ebebeb;}
+
+
+
+   
+
+    @media (min-width: 769px){
+       article {
+        box-shadow: 0px 0px 10px rgb(100 100 100)        }
+
+        .burger-menu {
+            display: none;
+        }
+
+        i.fas.fa-bars {
+            display: none;
+        }
+
+    }
+
+
+    
+
+    @media (max-width: 361px){
+
+        
+        nav {
+            display: none;
+        }
+    
+        .decrip{
+    
+            display: none;
+        }
+    
+    }
+          
+
+    
+    
+
+footer{ background-color: white;
+        text-align: center;
+}
+
+.decrip {
+       font-size: 18px;
+       background-color: white;
+       margin: 0px;
+       padding: 10px;}
+
+* { 
+    border: 10px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+.burger-menu {background-color:#03264C;
+                margin: auto;
+                color: white;
+                width: 30px;
+                height: 30px;
+                padding: 5px;
+
+}
+
+i.fas.fa-truck { background-color: white;
+    display: flex;
+    justify-content: right;
+             
+}
+
+
+i.fas.fa-credit-card {
+    color: lightblue;
+    width: 2em;
+    height: 2em;
+    }
+
+i.fas.fa-gift { 
+        color: lightblue;
+        width: 2em;
+        height: 2em;
+    }
+
+i.fas.fa-user-shield {
+        color: lightblue;
+        width: 2em;
+        height: 2em;
+    }
+
+article { 
+    margin: 10px 0px;
+    }
+main { margin: auto;
+    width: 90%; }
+
+.recuadro { 
+    background-color:white;
+    display: flex;
+    gap: 40px;
+    padding: 15px 0px;
+        }
+
+.micro {
+  
+    border-top: 1px solid #ebebeb;
+    
+}
+
+h3 {
+    background-color: white;
+    margin: 0px;
+    padding: 10px;
+}
+
+main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30pox;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
