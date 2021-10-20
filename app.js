@@ -14,4 +14,4 @@ app.get("/register", (req, res) => {
     res.sendFile(archivo);
 });
 
-app.listen(3030, () => console.log("servidor corriendo"));
+app.listen(3000, () => console.log("servidor corriendo"));
