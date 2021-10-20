@@ -14,4 +14,4 @@ app.get("/register", (req, res) => {
     res.sendFile(archivo);
 });
 
-app.listen(3000, () => console.log("servidor corriendo"));
+app.listen(process.env.PORT || 3000, function () { console.log("servidor corriendo en el puerto 300"); })
